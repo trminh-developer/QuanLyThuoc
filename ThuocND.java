@@ -9,7 +9,7 @@ public class ThuocND extends Thuoc {
     }
 
     @Override
-    public double donGiaThuoc() {
+    public double donGiaThuoc() { // Tính giá thuốc nội địa
         return this.giaBaoQuan + this.giaVanChuyen + this.donGiaCB;
     }
 }
