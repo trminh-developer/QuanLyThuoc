@@ -1,6 +1,6 @@
 public class ThuocND extends Thuoc {
-    private double giaBaoQuan;
-    private double giaVanChuyen;
+    private final double giaBaoQuan;
+    private final double giaVanChuyen;
 
     public ThuocND(String ma, String tenThuoc, double donGiaCB, double giaBaoQuan, double giaVanChuyen) {
         super(ma, tenThuoc, donGiaCB);
