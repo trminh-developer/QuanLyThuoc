@@ -36,6 +36,10 @@
 
 ### Công thức:
 
+```
+donGiaThuoc() = donGiaCB + giaBaoQuan + giaVanChuyen
+```
+
 ---
 
 ## 5. Class ThuocNK (thuốc nhập khẩu)
@@ -45,6 +49,10 @@
 - `soLanNhapKhau: int`
 
 ### Công thức:
+
+```
+donGiaThuoc() = donGiaCB + (phiNhapKhau × soLanNhapKhau)
+```
 
 ---
 
@@ -79,3 +87,4 @@ Dùng `abstract` để:
 
 ```java
 ArrayList<Thuoc> list = new ArrayList<>();
+```

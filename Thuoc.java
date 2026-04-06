@@ -25,6 +25,13 @@ public abstract class Thuoc {
         this.ma = ma;
     }
 
+    public void setTenThuoc(String tenThuoc) {
+        this.tenThuoc = tenThuoc;
+    }
+    public void setDonGiaCB(double donGiaCB) {
+        this.donGiaCB = donGiaCB;
+    }
+
     public abstract double donGiaThuoc();
 
     public void ShowDonThuoc() {
