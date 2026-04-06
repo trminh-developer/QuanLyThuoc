@@ -10,6 +10,6 @@ public class ThuocNK extends Thuoc {
 
     @Override
     public double donGiaThuoc() {
-        return phiNhapKhau * soLanNhapKhau + donGiaCB;
+        return this.phiNhapKhau * this.soLanNhapKhau + this.donGiaCB;
     }
 }

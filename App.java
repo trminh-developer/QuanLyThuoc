@@ -13,7 +13,7 @@ public class App {
         // Thuốc Nhập Khẩu
         list.add(new ThuocNK("NK1", "Panadol", 15000, 3000, 2));
         list.add(new ThuocNK("NK2", "Aspirin", 1300, 2500, 3));
-        list.add(new ThuocNK("NK2", "Aspirin", 1400, 2000, 1));
+        list.add(new ThuocNK("NK3", "Pixilin", 1400, 2000, 1));
 
         for (Thuoc t : list) {
             t.ShowDonThuoc();

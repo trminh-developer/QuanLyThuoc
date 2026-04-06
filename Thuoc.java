@@ -13,6 +13,6 @@ public abstract class Thuoc {
 
     public void ShowDonThuoc() {
         System.out.println("----- Đơn Thuốc -----");
-        System.out.println("Mã: " + this.ma + "\nTên: " + this.tenThuoc + "\nĐơn Giá: " + this.donGiaThuoc());
+        System.out.println("\tMã: " + this.ma + "\n\tTên: " + this.tenThuoc + "\n\tĐơn Giá: " + this.donGiaThuoc());
     }
 }
