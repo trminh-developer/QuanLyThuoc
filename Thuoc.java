@@ -9,6 +9,22 @@ public abstract class Thuoc {
         this.donGiaCB = donGiaCB;
     }
 
+    public String getMa() {
+        return ma;
+    }
+    
+    public String getTenThuoc() {
+        return tenThuoc;
+    }
+
+    public double getDonGiaCB() {
+        return donGiaCB;
+    }
+
+    public void setMa(String ma) {
+        this.ma = ma;
+    }
+
     public abstract double donGiaThuoc();
 
     public void ShowDonThuoc() {
